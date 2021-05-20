@@ -11,7 +11,7 @@ body {
 
 .form {
   background: transparent;
-  width: 100%;
+  width: 95%;
   margin: auto;
   border: 2px solid #ccc;
   border-radius: 8px;
@@ -62,7 +62,7 @@ input :active,
   border: 2px solid #c3faff;
   border-radius: 8px;
   padding: 0.5rem;
-  font-size: clamp(8px, 3vw, 16px);
+  font-size: clamp(8px, 2vw, 16px);
 }
 
 @media screen and (min-width: 600px) {
@@ -88,7 +88,11 @@ main h2 {
   text-align: center;
   margin-bottom: 25px;
 }
-
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 button {
   width: 20%;
   height: 2rem;
