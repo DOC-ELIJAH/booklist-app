@@ -94,7 +94,7 @@ const App = () => {
         {alert.show && (
           <Message {...alert} removeAlert={showAlert} books={books} />
         )}
-        <h2> reading list</h2>
+        <h2>booking list</h2>
         <form className="form">
           <div className="inputWrapper">
             <input
