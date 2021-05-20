@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Message from "./Message";
 import { FaEdit, FaTrash } from "react-icons/fa";
 
